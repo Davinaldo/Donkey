@@ -21,7 +21,15 @@ namespace Donkey
         {
             InitializeComponent();
 
-            Label_Text.Content = "Changed text to\nWe love donkeys!";
+            Farmyard fy = new Farmyard();
+
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Farmyard Simulator");
+            sb.AppendLine("Dogs go: " + fy.PlaySound("dog"));
+            sb.AppendLine("Cats go: " + fy.PlaySound("cat"));
+            sb.AppendLine("Donkeys go: " + fy.PlaySound("donkey"));
+
+            Label_Text.Content = sb.ToString();
         }
     }
 }
