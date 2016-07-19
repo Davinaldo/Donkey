@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="The Donkey Project" Height="350" Width="525">
     <Grid>
-        <Label Content="Food for Donkeys" />
+        <Label Name="Label_Text" Content="Food for Donkeys" />
     </Grid>
 </Window>

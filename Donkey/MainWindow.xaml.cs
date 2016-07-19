@@ -20,6 +20,8 @@ namespace Donkey
         public MainWindow()
         {
             InitializeComponent();
+
+            Label_Text.Content = "Changed text to\nWe love donkeys!";
         }
     }
 }
