@@ -37,7 +37,7 @@ namespace Donkey.Test_Cases
 
             String sound = fy.PlaySound("donkey");
 
-            Assert.AreEqual("neigh", sound);
+            Assert.AreEqual("pfft", sound);
         }
     }
 }
